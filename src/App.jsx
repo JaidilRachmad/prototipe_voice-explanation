@@ -144,8 +144,8 @@ export default function ManningAudioGuidedResponsive() {
 
           {/* HUD Metrik Real-Time di Dalam Kanvas */}
           <div style={{ position: 'absolute', top: '12px', left: '12px', background: 'rgba(15, 23, 42, 0.8)', padding: '6px 12px', borderRadius: '6px', color: '#fff', fontSize: '12px', border: '1px solid rgba(255,255,255,0.1)' }}>
-            ⚡ Kecepatan ($V$): <b>{V.toFixed(2)} m/s</b><br />
-            🌊 Debit Saluran ($Q$): <b>{Q.toFixed(2)} m³/s</b>
+            ⚡ Kecepatan (V): <b>{V.toFixed(2)} m/s</b><br />
+            🌊 Debit Saluran (Q): <b>{Q.toFixed(2)} m³/s</b>
           </div>
 
           {/* AUDIO HOTSPOT: Tombol Audio Geometri */}
